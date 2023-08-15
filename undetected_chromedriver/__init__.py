@@ -254,8 +254,8 @@ class Chrome(selenium.webdriver.chrome.webdriver.WebDriver):
             version_main=version_main,
             user_multi_procs=user_multi_procs,
         )
-        # self.patcher.auto(user_multiprocess = user_multi_num_procs)
-        self.patcher.auto()
+        # # self.patcher.auto(user_multiprocess = user_multi_num_procs)
+        # self.patcher.auto()
 
         # self.patcher = patcher
         if not options:
